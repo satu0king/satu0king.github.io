@@ -1,0 +1,75 @@
+#projectskills {
+    padding: 10px 15px;
+    text-align: center
+}
+
+#projectskills h2 {
+    color: #374054;
+    margin-bottom: 50px
+}
+
+#projectskills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px
+}
+
+#projectskills li {
+    display: inline-block;
+    margin: 2px;
+    padding: 5px 5px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 0.7em
+}
+
+.socialCustom {
+    text-align: right
+}
+
+.socialCustom ul {
+    margin: 5px 0 0 0;
+    padding: 0
+}
+
+.socialCustom li {
+    display: inline-block;
+    font-size: 1.25em;
+    list-style: none
+}
+
+.socialCustom a {
+    display: block;
+    color: white;
+    padding: 10px
+}
+
+.socialCustom a:hover {
+    color: #3498db
+}
+
+.btn-rounded-blue {
+    display: inline-block;
+	color: #3498db;
+
+    padding: 2px 10px;
+    border: 2px solid #3498db;
+    border-radius: 30px;
+    transition: .5s ease all
+}
+
+.btn-rounded-blue:hover {
+    color: #23527c;
+	border: 2px solid #23527c;
+    /* background: #23527c; */
+    text-decoration: none
+}
+
+.project-image img {
+	width: 300px;
+    height: 300px;
+	object-fit: cover;
+}
